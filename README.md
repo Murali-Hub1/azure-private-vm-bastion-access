@@ -25,3 +25,17 @@ A web application (Nginx) runs on the VM using a private IP and is accessed usin
 - Azure Bastion
 - Linux administration
 - Cost-aware cloud cleanup
+
+## Architecture Diagram
+
+User Laptop
+   |
+   | Bastion Tunnel (localhost)
+   v
+Azure Bastion
+   |
+   v
+Private Linux VM
+   |
+   v
+Nginx Web App
