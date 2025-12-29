@@ -1,0 +1,1 @@
+# azure-private-vm-bastion-access
